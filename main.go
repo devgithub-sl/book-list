@@ -18,7 +18,8 @@ type Book struct {
 }
 
 func main() {
-	fmt.Println("herro")
+	fmt.Println("hallo")
+	fmt.Println("application is currently running on -> http://localhost:8080/")
 
 	// this map type acts like our temporary database for now
 	// book data stored as map
@@ -39,7 +40,7 @@ func main() {
 
 	// add entered by our html form to be stored into our map
 	addBookHandler := func(w http.ResponseWriter, r *http.Request) {
-		if r.Method == "POST" {
+		if r.Method == http.MethodPost {
 			name := r.PostFormValue("name")
 			author := r.PostFormValue("author")
 			isbn := r.PostFormValue("isbn")

@@ -1,0 +1,2 @@
+1. nav bar is being rendered twice on home page
+2. when submitting form it doesnt redirect to home page

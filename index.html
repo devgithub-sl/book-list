@@ -23,10 +23,10 @@
         <ul id="book-list" class="list-group">
             {{range .Books}}
                 {{block "book-list-element" .}}
-                <li class="list-group-item">{{.Id}}</li>
-                <li class="list-group-item">{{.Name}}</li>
-                <li class="list-group-item">{{.Author}}</li>
-                <li class="list-group-item">{{.Isbn}}</li>
+                <li class="list-group-item">ID: {{.Id}}</li>
+                <li class="list-group-item">BOOK_NAME: {{.Name}}</li>
+                <li class="list-group-item">BOOK_AUTHOR: {{.Author}}</li>
+                <li class="list-group-item">ISBN: {{.Isbn}}</li>
                 <br>
                 {{end}}
             {{end}}
