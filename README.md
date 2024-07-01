@@ -3,9 +3,12 @@
 
 # How to run the project
 ```shell
-// **if u have the go compiler installed then do
-// go run .
+Pre-requisites 
+- Golang Compiler must be installed in your machine (that is it)
 
-// **else
-// install the binary that is provided in the releases tab of this repo
+# if u have the compiler installed then do the below command
+`go run .`
+
+# other ways to run this program is to download the following binary in the releases tab and then execute the binary in your machine 
+# i reccommend that you download the latest binary release in the repo
 ```
