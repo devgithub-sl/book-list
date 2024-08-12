@@ -6,11 +6,12 @@
 Pre-requisites 
 - Golang Compiler must be installed in your machine (that is it)
 
-# if u have the compiler installed then do the below command
+# If u have the compiler installed then do the below command
 `go run .`
 
-# other ways to run this program is to download the following binary in the releases tab and then execute the binary in your machine 
-# i reccommend that you download the latest binary release in the repo
+# Other ways to run this program is to download the following binary in the releases tab and then execute the binary in your machine 
+# I reccommend that you download the latest binary release in the repo
+# If You feel like no installing the Executable, Feel free to see the below demo of this code
 ```
 
 # Demo
